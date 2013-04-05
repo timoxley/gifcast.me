@@ -1,0 +1,13 @@
+{
+  "name": "options",
+  "description": "gifcast.me options",
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "options.css"
+  ]
+}

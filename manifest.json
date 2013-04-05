@@ -1,0 +1,28 @@
+{
+  "name": "gifcast.me",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Create GIF screencasts in the browser.",
+  "background": {
+    "scripts": ["build/build.js", "run.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*", "http://*/"],
+      "css": ["build/build.css"],
+      "js": ["build/build.js", "run-content.js"],
+      "run_at": "document_end"
+    }
+  ],
+	"web_accessible_resources": [
+	]
+}
+

@@ -1,0 +1,32 @@
+{
+  "name": "gifcast",
+  "repo": "timoxley/gifcast",
+  "description": "gif casting tool",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "timoxley/gif": "*",
+    "component/emitter": "*",
+    "component/domify": "*",
+    "component/batch": "*",
+    "timoxley/element-selector": "*",
+    "timoxley/offset": "*",
+    "timoxley/state-machine": "*",
+    "timoxley/react": "*",
+    "timoxley/YouAreDaChef": "*",
+    "visionmedia/debug": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js",
+    "process.js",
+    "worker.js",
+    "content.js",
+    "badge.js",
+    "template.js"
+  ],
+  "styles": [
+    "gifcast.css"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_title": "Start recording."
+   },
+   "description": "Records a video of your chrome browser. Lets you share out the video or stills of the video.",
+   "icons": {
+      "128": "images/icon.png",
+      "16": "images/icon.png",
+      "48": "images/icon.png"
+   },
+   "name": "gifcast.me",
+   "permissions": [ "tabs" ],
+   "version": "0.1"
+}
